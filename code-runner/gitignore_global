@@ -1,0 +1,37 @@
+# Factory internal files — never commit
+.factory/
+
+# Sensitive data
+.env
+.env.*
+*.pem
+*.key
+*.cert
+*.p12
+
+# Build artifacts / compiled output
+dist/
+build/
+out/
+target/
+*.o
+*.so
+*.dylib
+*.exe
+*.dll
+*.class
+*.pyc
+__pycache__/
+
+# Dependency directories
+node_modules/
+vendor/
+.venv/
+venv/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
